@@ -133,13 +133,13 @@ nav {
 }
 
 
-#word-label {
+#question-word{
     display: block;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 16px;
 }
 
-#word {
+#input-word {
     width: 385px;
     margin-right: 10px;
 }
