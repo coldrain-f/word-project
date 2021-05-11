@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/coldrain.css">
     <title>Document</title>
 </head>
 <body>
@@ -28,15 +29,15 @@
                     <form action="" method="">
                         <label for="input-word" id="question-word">양념</label>
                         
-                        <input type="text" class="text-form" id="input-word" autocomplete="off" placeholder="스펠링 입력...">
-                        <button type="submit" class="button" id="submit-button">확인</button>
-                        <button type="submit" class="button" id="help-button">모르겠어요</button>
-                        <input type="text" class="text-form" id="show-answer" disabled autocomplete="off" placeholder="&quot;모르겠어요&quot;를 누르면 이곳에 정답이 표시돼요!">
+                        <input type="text" class="form-text" id="input-word" autocomplete="off" placeholder="스펠링 입력...">
+                        <button type="submit" class="button button-blue" id="submit-button">확인</button>
+                        <button type="submit" class="button button-red" id="help-button">모르겠어요</button>
+                        <input type="text" class="form-text" id="show-answer" disabled autocomplete="off" placeholder="&quot;모르겠어요&quot;를 누르면 이곳에 정답이 표시돼요!">
                         
                         <div id="search-div">
                             <label for="">TTS</label>
-                            <input type="text" class="text-form" id="search-word" autocomplete="off" placeholder="이곳에 듣고 싶은 발음의 &quot;일본어 단어&quot;를 입력해 주세요!" >
-                            <button type="button" class="button" id="speech-button">발음 듣기</button>
+                            <input type="text" class="form-text" id="search-word" autocomplete="off" placeholder="이곳에 듣고 싶은 발음의 &quot;일본어 단어&quot;를 입력해 주세요!" >
+                            <button type="button" class="button button-pink" id="speech-button">발음 듣기</button>
                         </div>
                     </form>
                 </div>
@@ -64,8 +65,8 @@
                     </optgroup>
                 </select>
                 </select>
-                <button type="button" class="button" id="word-button">단어</button>
-                <button type="button" class="button" id="writing-button">작문</button>
+                <button type="button" class="button button-blue" id="word-button">단어</button>
+                <button type="button" class="button button-red" id="writing-button">작문</button>
             </article>
             <article>
                 <span>게임 채팅창</span>

@@ -1,10 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
 
-* {
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
 body {
     background-color: #f6f5ef;
 }
@@ -100,7 +96,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Noto Sans KR', sans-serif;
     font-weight: bold;
     font-size: 32px;
 
@@ -123,7 +118,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Noto Sans KR', sans-serif;
     font-weight: bold;
     font-size: 32px;
 
@@ -135,14 +129,9 @@ nav {
 
 #question-word{
     display: block;
-    font-family: 'Noto Sans KR', sans-serif;
     font-size: 16px;
 }
 
-#input-word {
-    width: 385px;
-    margin-right: 10px;
-}
 
 #quiz-div {
     display: flex;
@@ -161,7 +150,6 @@ nav {
 }
 
 #quiz-div>#progress {
-    font-family: 'Noto Sans KR', sans-serif;
     width: 100%;
     text-align: end;
     font-size: 12px;
@@ -174,114 +162,27 @@ nav {
     text-align: center;
 }
 
+/* 스펠링 입력... 텍스트 박스 */
+#input-word {
+    width: 405px;
+    margin-right: 10px;
+}
+
+/* "모르겠어요" 버튼을 누르면 보여지는 텍스트 박스 */
+#show-answer {
+    width: 623px;
+    margin-top: 5px;
+}
+
+/* TTS Wrapper div */
 #search-div {
     margin-top: 15px;
 }
 
-#submit-button {
-    width: 100px;
-    height: 50px;
-    border-radius: 0;
-    background: #247AFF;
-}
-
-#help-button {
-    width: 100px;
-    height: 50px;
-    margin-left: -2px;
-    border-radius: 0;
-    background: #FF6464;
-}
-
-#show-answer {
-    width: 615px;
-    margin-top: 5px;
-}
-
-
-#quiz-div button {
-    width: 100px;
-}
-
+/* TTS 텍스트 박스 */
 #search-word {
-    width: 470px;
+    width: 488px;
 }
-
-.text-form {
-    font-family: 'Noto Sans KR', sans-serif;
-    border: 1px solid #dee2e6;
-    border-radius: 3px;
-    padding-left: 10px;  
-    height: 40px;
-    font-size: 16px;  
-}
-
-.text-form:focus {
-    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
-    box-shadow: 0 0 0 3px -moz-mac-focusring;
-    border: 1px solid #dee2e6;
-    outline: none;
-
-}
-
-.button {
-    width: 185px;
-    height: 50px;
-    border: none;
-    color: #fff;
-    font-family: 'Noto Sans KR', sans-serif;
-    padding: 15px 0;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    margin: 4px;
-    cursor: pointer;
-    background: #FB6E52;
-    /* border-radius: 10px; */
-}
-
-.button:focus {
-    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
-    box-shadow: 0 0 0 3px -moz-mac-focusring;
-    border: none;
-    outline: none;
-}
-.button:hover {
-    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
-    box-shadow: 0 0 0 3px -moz-mac-focusring;
-    border: none;
-    outline: none;
-}
-
-#word-button {
-    background: #247AFF;
-}
-
-#writing-button {
-    background: #FF6464;
-}
-
-#form-select {
-    width: 95%;
-    height: 250px;
-    appearance: none;
-    border: 1px solid #dee2e6;
-    font-family: 'Noto Sans KR', sans-serif;
-    border-radius: 3px;
-    margin-top: 10px;
-    font-size: 16px;
-    padding-left: 10px;
-}
-#form-select:focus {
-    border-color: #aaa;
-    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
-    box-shadow: 0 0 0 3px -moz-mac-focusring;
-    color: #222;
-    outline: none;
-}
-
-
 
 footer {
     display: flex;
@@ -290,5 +191,3 @@ footer {
     width: 1220px;
     height: 200px;
 }
-
-/* nav */
