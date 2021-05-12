@@ -90,7 +90,6 @@ nav {
     margin-bottom: 5px;
 
     background: #f8f9fa;
-
 }
 #container>#main-contents>article:nth-child(2) {
     display: flex;
@@ -118,9 +117,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
-    font-size: 32px;
 
+    overflow: scroll;
     width: 570px;
     height: 336px;
     margin-left: 10px;
@@ -182,6 +180,11 @@ nav {
 /* TTS 텍스트 박스 */
 #search-word {
     width: 488px;
+}
+
+/* 임시 테이블 스타일 시트 */
+table {
+    margin-top: 50px;
 }
 
 footer {

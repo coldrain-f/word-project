@@ -82,13 +82,13 @@
 
 .table td {
     text-align: center;
-    line-height: 100px;
     border: 1px solid #FFF;
     background: #FFADAD;
     color: #fff;
     width: 100px;
-    height: 100px;
-    font-size: 22px;
+    height: 40x;
+    line-height: 40px;
+    font-size: 16px;
 }
 
 .table td:hover {
