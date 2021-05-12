@@ -211,17 +211,17 @@ nav>ul li:last-child {
 
 nav>ul li>a {
     width: 100%;
-    font-size: 18px;
+    font-size: 16px;
 }
 
-nav>ul li:nth-child(3){
+nav>ul li:nth-child(1){
     background: #008cba;
 }
-nav>ul li:nth-child(3) a {
+nav>ul li:nth-child(1) a {
     color: #fff;
 }
 
-nav>ul li:nth-child(3):hover {
+nav>ul li:nth-child(1):hover {
     background: #008cba;
 }
 
