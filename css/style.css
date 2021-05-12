@@ -29,7 +29,7 @@ header {
     align-items: center;
     width: 1220px;
     height: 300px;
-    /* background: url(../img/muctitle.gif); */
+    /* background: url(../img/banner-example.jpg); */
     background-repeat: no-repeat;
     background-position-x: center;
 }
@@ -92,17 +92,26 @@ nav {
     background: #f8f9fa;
 }
 #container>#main-contents>article:nth-child(2) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 32px;
-
     width: 280px;
     height: 345px;   
     margin-left: 10px;
     margin-right: 5px;
     margin-top: 10px;
+}
+
+/* 임시 이미지 박스 */
+#container>#main-contents>article:nth-child(2)>div {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container>#main-contents>article:nth-child(2)>div>img {
+    border: 1px solid #dee2e6;
+    width: 260px;
+    height: 320px;
+    
 }
 #container>#main-contents>article:nth-child(3) {
     display: flex;
@@ -163,6 +172,17 @@ nav {
     font-size: 22px;
     padding: 20px;
     text-align: center;
+}
+
+/* 단어 버튼 */
+#word-button {
+    width: 184px;
+    margin-right: 13px;
+}
+
+/* 작문 버튼 */
+#writing-button {
+    width: 184px;
 }
 
 /* 스펠링 입력... 텍스트 박스 */
